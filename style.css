@@ -1,0 +1,210 @@
+* {
+    padding: 2px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bc {
+    background-color: #e7f1e3;
+    width: 100%;
+}
+
+.navbar {
+    width: 80%;
+    margin: auto;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-family: 'Palette Mosaic', cursive;
+    padding-bottom: 15px;
+    color: rgb(15, 216, 65);
+}
+
+.navbar-brand:hover {
+    color: rgb(65, 190, 86);
+}
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.nav-link:hover:hover {
+    color: green;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    list-style-type: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content li a {
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    color: green
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: inline-block;
+}
+
+
+/* .search {
+    height: 40px;
+    width: 100%;
+    border-radius: 50px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid rgb(6, 129, 47);
+} */
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(106, 192, 181);
+    color: beige;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.main {
+    /* background-image: url('Newimage/background.jpg'); */
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    padding-top: 20%;
+    color: #e9ecef
+}
+
+.product {
+    padding-left: 5px;
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: #212529;
+    color: antiquewhite;
+    border-radius: 60px;
+    font-weight: 800;
+    font-size: large;
+}
+
+.btn3 {
+    background: rgba(196, 114, 6, 0.671);
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    color: black;
+}
+
+.btn4 {
+    background: rgba(65, 226, 132, 0.671);
+    color: #fff;
+    padding: 4px 15px;
+    border-radius: 5px;
+    color: black;
+}
+
+.news {
+    background-color: black;
+    color: white;
+}
+
+.btn2 {
+    height: 35px;
+    width: 100px;
+    background: white;
+    border: 2px solid white;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.news input {
+    height: 35px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.news::-moz-placeholder {
+    color: #e7f1e3;
+}
+
+.news p {
+    margin: 0;
+}
+
+.fab {
+    font-size: 10rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+.anchortag {
+    list-style-type: none;
+    display: inline-block;
+    position: absolute;
+    list-style-type: none;
+    min-width: 160px;
+}
+
+.anchortag li a {
+    text-decoration: none;
+    color: white;
+    margin: -34px;
+}
+#uspan,
+#lspan,
+#espan,
+#mspan {
+    color: red;
+}

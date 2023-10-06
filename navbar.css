@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: black;
+    font-family: 'lobster', cursive;
+}
+
+.navbar-brand:hover {
+    color: #000;
+}
+
+.nav-link {
+    /* margin-right: 10px; */
+    /* margin-left: 10px; */
+    color: #000;
+    /* text-transform: uppercase; */
+    overflow: hidden;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+hr {
+    width: 30px;
+    height: 2px;
+    background-color: firebrick;
+}
+
+.star {
+    padding: 10px 0;
+}
+
+.star i {
+    font-size: 0.8rem;
+    color: goldenrod;
+}
+
+
+/* logo */
+
+.logo a {
+    text-decoration: none;
+}
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(red, green, blue);
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.main {
+    background: url(Newimage/background.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 100% 100%;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(31, 151, 141);
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn1 :hover {
+    background-color: rgb(248, 26, 92);
+    transition: 0.5s;
+}
+
+.dik {
+    display: inline-block;
+    margin: 4rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.dairy {
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;
+}
+
+.Product {
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.Product img {
+    transition: 0.3s all;
+}
+
+.Product :hover img {
+    opacity: 0.7;
+}
+
+.Product .buy-btn {
+    background: firebrick;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.Product:hover .buy-btn {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.Yogurt {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Newimage/Yogurt.jpg) no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.Yogurt h1 {
+    font-family: 'lobster', cursive;
+}
+
+.news {
+    background-color: black;
+    color: white;
+}
+
+.btn2 {
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+
+.news input {
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.news::placeholder {
+    color: white;
+}
+
+.news p {
+    margin: 0;
+}
+
+.fab {
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+
+/* Dropdown Button */
+
+
+/* .dropbtn {
+    background-color: #000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    box-shadow: none;
+  }
+   */
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    list-style-type: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content li a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* Change color of dropdown links on hover */
+
+
+/* .dropdown-content a:hover {background-color: #ddd;} */
+
+
+/* Show the dropdown menu on hover */
+
+
+/* .dropdown:hover .dropdown-content {display: block;} */
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+
+/* .dropdown:hover .dropbtn {background-color: white;} */
